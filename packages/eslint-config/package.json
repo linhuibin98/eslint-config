@@ -1,0 +1,23 @@
+{
+  "name": "@linhuibin/eslint-config",
+  "version": "0.0.0",
+  "description": "eslint config",
+  "private": true,
+  "packageManager": "pnpm@7.5.0",
+  "keywords": [
+    "eslint-config"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint . --config index.js"
+  },
+  "author": "linhuibin <1032352370@qq.com> (https://github.com/linhuibin98/)",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/eslint": "^8.4.5",
+    "eslint": "^8.19.0"
+  },
+  "dependencies": {
+    "@linhuibin/eslint-config-basic": "workspace:*"
+  }
+}
