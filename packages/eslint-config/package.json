@@ -10,7 +10,7 @@
   ],
   "main": "index.js",
   "files": [
-    "index.js"
+    "*.js"
   ],
   "scripts": {
     "lint": "eslint . --config index.js"
