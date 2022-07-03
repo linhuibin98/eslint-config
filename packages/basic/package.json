@@ -1,28 +1,34 @@
 {
   "name": "@linhuibin/eslint-config-basic",
   "version": "0.0.2-beta.2",
-  "description": "eslint config basic",
   "packageManager": "pnpm@7.5.0",
+  "description": "eslint config basic",
+  "license": "MIT",
+  "homepage": "https: //github.com/linhuibin98/eslint-config",
+  "keywords": [
+    "eslint-config",
+    "eslint-config-basic"
+  ],
   "main": "index.js",
+  "files": [
+    "index.js"
+  ],
   "scripts": {
     "lint": "eslint . --config index.js",
     "lint:fix": "eslint . --config index.js --fix"
   },
-  "author": "linhuibin <1032352370@qq.com> (https://github.com/linhuibin98/)",
-  "license": "ISC",
-  "devDependencies": {
-    "@types/eslint": "^8.4.5",
-    "eslint": "^8.19.0"
-  },
   "dependencies": {
-    "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-eslint-comments": "^3.2.0",
     "eslint-plugin-html": "^6.2.0",
+    "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-jsonc": "^2.3.1",
     "eslint-plugin-markdown": "^2.2.1",
     "eslint-plugin-n": "^15.2.3",
     "eslint-plugin-promise": "^6.0.0",
     "eslint-plugin-unicorn": "^42.0.0",
     "eslint-plugin-yml": "^1.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.19.0"
   }
 }

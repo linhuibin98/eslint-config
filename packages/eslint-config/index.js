@@ -1,5 +1,6 @@
 module.exports = {
   extends: [
-    '@linhuibin/eslint-config-basic',
+    '@linhuibin/eslint-config-react',
+    '@linhuibin/eslint-config-vue',
   ],
 }

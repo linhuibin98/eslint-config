@@ -1,0 +1,29 @@
+{
+  "name": "@linhuibin/eslint-config-typescript",
+  "version": "0.0.2-beta.2",
+  "packageManager": "pnpm@7.5.0",
+  "description": "eslint config",
+  "author": "linhuibin <1032352370@qq.com> (https://github.com/linhuibin98/)",
+  "license": "MIT",
+  "homepage": "https://github.com/linhuibin98/eslint-config",
+  "keywords": [
+    "eslint-config",
+    "eslint-config-typescript"
+  ],
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "peerDependencies": {
+    "eslint": ">=7.4.0",
+    "typescript": ">=3.9"
+  },
+  "dependencies": {
+    "@linhuibin/eslint-config-basic": "workspace:*",
+    "@typescript-eslint/eslint-plugin": "^5.30.3",
+    "@typescript-eslint/parser": "^5.30.3"
+  },
+  "devDependencies": {
+    "eslint": "^8.19.0"
+  }
+}

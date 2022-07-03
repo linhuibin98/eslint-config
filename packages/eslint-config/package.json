@@ -1,22 +1,26 @@
 {
   "name": "@linhuibin/eslint-config",
   "version": "0.0.2-beta.2",
-  "description": "eslint config",
   "packageManager": "pnpm@7.5.0",
+  "description": "eslint config",
+  "license": "MIT",
+  "homepage": "https://github.com/linhuibin98/eslint-config",
   "keywords": [
     "eslint-config"
   ],
   "main": "index.js",
+  "files": [
+    "index.js"
+  ],
   "scripts": {
     "lint": "eslint . --config index.js"
   },
-  "author": "linhuibin <1032352370@qq.com> (https://github.com/linhuibin98/)",
-  "license": "ISC",
+  "dependencies": {
+    "@linhuibin/eslint-config-react": "workspace:*",
+    "@linhuibin/eslint-config-vue": "workspace:*"
+  },
   "devDependencies": {
     "@types/eslint": "^8.4.5",
     "eslint": "^8.19.0"
-  },
-  "dependencies": {
-    "@linhuibin/eslint-config-basic": "workspace:*"
   }
 }
