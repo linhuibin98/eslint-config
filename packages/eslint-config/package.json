@@ -2,7 +2,6 @@
   "name": "@linhuibin/eslint-config",
   "version": "0.0.1",
   "description": "eslint config",
-  "private": true,
   "packageManager": "pnpm@7.5.0",
   "keywords": [
     "eslint-config"
