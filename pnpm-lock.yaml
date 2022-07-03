@@ -4,10 +4,12 @@ importers:
 
   .:
     specifiers:
+      '@linhuibin/eslint-config': '*'
       bumpp: ^8.2.1
       eslint: ^8.19.0
       typescript: ^4.7.4
     devDependencies:
+      '@linhuibin/eslint-config': link:packages/eslint-config
       bumpp: 8.2.1
       eslint: 8.19.0
       typescript: 4.7.4
@@ -19,6 +21,17 @@ importers:
       eslint-plugin-import: ^2.26.0
     dependencies:
       eslint-plugin-import: 2.26.0_eslint@8.19.0
+    devDependencies:
+      '@types/eslint': 8.4.5
+      eslint: 8.19.0
+
+  packages/eslint-config:
+    specifiers:
+      '@linhuibin/eslint-config-basic': workspace:*
+      '@types/eslint': ^8.4.5
+      eslint: ^8.19.0
+    dependencies:
+      '@linhuibin/eslint-config-basic': link:../basic
     devDependencies:
       '@types/eslint': 8.4.5
       eslint: 8.19.0
