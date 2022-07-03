@@ -1,6 +1,6 @@
 {
   "name": "@linhuibin/eslint-config-vue",
-  "version": "0.0.2-beta.2",
+  "version": "0.0.2",
   "packageManager": "pnpm@7.5.0",
   "description": "eslint config",
   "author": "linhuibin <1032352370@qq.com> (https://github.com/linhuibin98/)",
